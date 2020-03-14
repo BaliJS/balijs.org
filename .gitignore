@@ -110,4 +110,8 @@ temp/
 
 # End of https://www.gitignore.io/api/node
 
+# Ignore next js output
 out/
+
+# Ignore next-mdx-enhanced cache directory
+.mdx-data/

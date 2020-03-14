@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply border-yellow-300 border-solid border-t-4;
+  @apply text-gray-800 antialiased;
 }
