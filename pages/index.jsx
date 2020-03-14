@@ -6,6 +6,7 @@ export default () => {
   return (
     <>
       <Head>
+        <title>BaliJS | Javascript community in Bali</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
