@@ -1,8 +1,13 @@
+import Head from 'next/head'
+
 import '../styles/index.css'
 
 export default () => {
   return (
     <>
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
@@ -10,7 +15,7 @@ export default () => {
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
               href="/"
             >
-              BaliJS
+              Bali<span className="text-yellow-400">JS</span>
             </a>
           </div>
         </div>
@@ -42,17 +47,13 @@ export default () => {
                     Let's learn & grow together
                   </p>
                   <a
-                    className="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                    type="button"
-                    style={{ transition: 'all 0.15s ease 0s' }}
+                    className="bg-yellow-400 text-gray-800 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 cursor-pointer hover:bg-yellow-200"
                     href="https://t.me/balijs"
                   >
                     Telegram
                   </a>
                   <a
-                    className="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
-                    type="button"
-                    style={{ transition: 'all 0.15s ease 0s' }}
+                    className="bg-yellow-400 text-gray-800 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 cursor-pointer hover:bg-yellow-200"
                     href="https://forum.balijs.org"
                   >
                     Forum
@@ -105,15 +106,14 @@ export default () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold">BaliJS</h4>
+              <h4 className="text-3xl font-semibold">BALIJS</h4>
               <h5 className="text-lg mt-0 mb-2 text-gray-700">
                 Javascript community in Bali, Indonesia
               </h5>
             </div>
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">
-                <div className="w-full lg:w-4/12 px-4"/>
-                <div className="w-full lg:w-4/12 px-4">
+                <div className="w-full lg:w-4/12 ml-auto">
                   <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
                     Resources
                   </span>
