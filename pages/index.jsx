@@ -17,7 +17,7 @@ export default () => {
         <meta property="og:title" content={title} />
         <meta property="og:url" content={url} />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content="/balijs.jpg" />
+        <meta property="og:image" content="/balijs.jpeg" />
       </Head>
       <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
