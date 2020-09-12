@@ -1,28 +1,16 @@
 {
   "name": "newsletter.balijs.org",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "npm run build && next export"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.27",
-    "@fortawesome/free-solid-svg-icons": "^5.12.1",
-    "@fortawesome/react-fontawesome": "^0.1.9",
-    "@zeit/next-css": "^1.0.1",
-    "next": "^9.3.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
-  },
-  "devDependencies": {
-    "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.2.0"
+    "@chakra-ui/vue": "^0.6.2",
+    "emotion": "^10.0.27",
+    "gridsome": "^0.7.0",
+    "light-date": "^1.1.2",
+    "rss-parser": "^3.9.0"
   }
 }

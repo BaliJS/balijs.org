@@ -1,20 +1,14 @@
-# balijs.org
+# Default starter for Gridsome
 
-> Source code for https://www.balijs.org/
+This is the project you get when you run `gridsome create new-project`.
 
-This project is based on this article https://dev.to/notrab/get-up-and-running-with-tailwind-css-and-next-js-3a73
+### 1. Install Gridsome CLI tool if you don't have
 
-For an overview of the project please refer to the [Next.js documentation](https://nextjs.org/docs/getting-started)
+`npm install --global @gridsome/cli`
 
-## Develop
+### 2. Create a Gridsome project
 
-A nodejs >= 12.0.0 setup with latest npm is recommended.
-
-```bash
-# install dependencies
-npm install
-
-# serve at localhost:3000
-npm run dev
-```
-
+1. `gridsome create my-gridsome-site` to install default starter
+2. `cd my-gridsome-site` to open the folder
+3. `gridsome develop` to start a local dev server at `http://localhost:8080`
+4. Happy coding 🎉🙌
